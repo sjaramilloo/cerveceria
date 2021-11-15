@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slyle.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="nav" class="box"> <a href="Multimedia.html">inicio</a></li>
+            <li class="nav" class="box"><a tablas href="">tablas</a><Tablas</li>
+            <li class="nav" class="box"><a maquetacion href="maquetacion.html">maquetacion</a><Maquetación</li>
+            <li class="nav" class="box"> <a href="index.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Listas Ordenadas</h1>
+            <p></p>
+            <h2>Asistencia grupo</h2>
+            <ol>
+                <li>Estudiante: Ana K</li>
+                <li>Estudiante: Felipe</li>
+                <li>Estudiante: Junior</li>
+                <li>Estudiante: Natalia</li>
+                <li>Estudiante: Sebastian</li>
+            </ol>
+            <ol>
+                <li>Estudiantes 1</li>
+                <li>Estudiantes 2</li>
+                <li>Estudiantes 3</li>
+                <li>Estudiantes 4</li>
+                <li>Estudiantes 5</li>
+                <li>Estudiantes 6</li>
+                <li>Estudiantes 7</li>
+            </ol>
+        </article>
+        <article>
+            <h1>listas no ordenadas</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, at!</p>
+            <ul>
+                <li>Elemento </li>
+                <li>Elemento </li>
+                <li>Elemento </li>
+                <li>Elemento </li>
+                <li>Elemento </li>
+            </ul>
+        </article>
+        <center>
+            <h1>Registra tus datos</h1> 
+            <main>
+            <h2>control de texto</h2>
+        </center>
+            <form action="" method="">
+                <h3>Algunas etiquetas de entrada de texto</h3>
+                <label for="titulo">Label... se utiliza para colocar titulos</label><br><br>
+                <label for="Nombre">Nombre completo</label><br>
+                <input type="text" name="nombre" id="" placeholder="Digite nombres" autocomplete="off"></input><br><br>
+
+                <label for="Nombre">Apellido</label><br>
+                <input type="text" name="apellido" id="" placeholder="Digite apellidos" autocomplete="off"></input><br><br>
+
+                <label for="Movil">Nro Móvil</label><br>
+                <input type="tel" name="nombre" id="" placeholder="Digite numero movil" autocomplete="off"></input><br><br>
+
+                <label for="Correo">Correo electronico</label><br>
+                <input type="email" name="Correo" id="" placeholder="ejem@plo.com" autocomplete="off"></input><br><br>
+                
+                <label for="contraseña">Contraseña</label><br>
+                <input type="password" name="contraseña" id="contraseña"></input><br><br>
+
+                <label for="observacion">Plasme sus observaciones</label><br>
+                <textarea name="Obervacion" id="Observacion" cols="30" rows="10"> </textarea>
+                <br>
+                <input type="submit" value="Enviar"> <br> <br>
+
+                <label for="edad">Edad</label><br>
+                <input type="number" name="edad" id="edad"><br>
+                <input type="range" name="" value="18" id="edad" min="18" max="30" oninput="this.nextElementSibling.value=this.value">
+                <output>18</output>
+
+            </form>
+
+            <hr>
+                <fieldset>
+                <h3>Seleccione los estilos que desea</h3>
+                <input type="checkbox" name="" id="">
+                <label for="">Bases de datos</label>
+                <input type="checkbox" name="" id="">
+                <label for="">logica</label>
+                <input type="checkbox" name="" id="">
+                <label for="">html</label>
+                <input type="checkbox" name="" id="">
+                <label for="">css</label>
+                <input type="checkbox" name="" id="">
+                <label for="">js</label>
+                </fieldset>
+
+                <h3>Seleccione Genero</h3>
+                <legend>Seleccione uno</legend>
+                <input type="radio" name="genero" id="" value="Masculino">
+                <label for="">Masculino</label>
+                <input type="radio" name="genero" id="" value="Femenino">
+                <label for="">Femenino</label>
+                <input type="radio" name="genero" id="" value="Otro">
+                <label for="">Otro</label>
+                <input type="radio" name="genero" id="" value="Disforia">
+                <label for="">Disforia de genero</label>
+
+                <br>
+                <hr>
+                <h3>Cuadro de lista</h3>
+                <select name="" id="">
+                    <option value="med">Medellín</option>
+                    <option value="med">Bello</option>
+                    <option value="med">Sabaneta</option>
+                    <option value="med">Itagüi</option>
+                </select>
+                <br>
+                <br>
+                <input type="date">
+                <br>
+                <br>
+    </main>
+</body>
+</html>
